@@ -6,10 +6,10 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := twrp_alioth
+PRODUCT_NAME := pb_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := POCO
 PRODUCT_MANUFACTURER := Xiaomi
